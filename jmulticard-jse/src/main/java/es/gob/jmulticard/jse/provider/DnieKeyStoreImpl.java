@@ -65,7 +65,6 @@ import java.util.logging.Logger;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.PasswordCallback;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.CryptoHelper;
 import es.gob.jmulticard.card.AuthenticationModeLockedException;
 import es.gob.jmulticard.card.BadPinException;
@@ -78,6 +77,7 @@ import es.gob.jmulticard.card.dnie.Dnie3Dg01Mrz;
 import es.gob.jmulticard.card.dnie.DnieFactory;
 import es.gob.jmulticard.card.dnie.DniePrivateKeyReference;
 import es.gob.jmulticard.connection.ApduConnection;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 
 /** Implementaci&oacute;n del SPI <code>KeyStore</code> para DNIe.
  * @author Tom&aacute;s Garc&iacute;a-Mer&aacute;s. */

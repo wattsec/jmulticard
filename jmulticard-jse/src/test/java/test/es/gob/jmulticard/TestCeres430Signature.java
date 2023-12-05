@@ -10,9 +10,9 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.spongycastle.util.encoders.Base64;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.card.dnie.Dnie;
 import es.gob.jmulticard.card.dnie.DnieFactory;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 import es.gob.jmulticard.jse.provider.ceres.Ceres430Provider;
 import es.gob.jmulticard.jse.smartcardio.SmartcardIoConnection;
 

@@ -4,10 +4,10 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import es.gob.jmulticard.HexUtils;
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.card.icao.WirelessInitializer;
 import es.gob.jmulticard.card.icao.WirelessInitializerMrz;
 import es.gob.jmulticard.card.icao.bac.Bac;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 import es.gob.jmulticard.jse.provider.ProviderUtil;
 
 /** Pruebas de BAC.

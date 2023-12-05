@@ -2,8 +2,8 @@ package test.es.gob.jmulticard;
 
 import java.util.Arrays;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.card.cardos.CardOS;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 import es.gob.jmulticard.jse.smartcardio.SmartcardIoConnection;
 
 /** Pruebas de Gemalto TUI R5.

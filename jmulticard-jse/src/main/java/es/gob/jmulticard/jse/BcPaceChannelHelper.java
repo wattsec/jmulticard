@@ -1,4 +1,4 @@
-package es.gob.jmulticard;
+package es.gob.jmulticard.jse;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -15,7 +15,10 @@ import org.spongycastle.math.ec.ECFieldElement;
 import org.spongycastle.math.ec.ECPoint;
 import org.spongycastle.util.Arrays;
 
+import es.gob.jmulticard.CryptoHelper;
+import es.gob.jmulticard.HexUtils;
 import es.gob.jmulticard.CryptoHelper.BlockMode;
+import es.gob.jmulticard.CryptoHelper.DigestAlgorithm;
 import es.gob.jmulticard.CryptoHelper.PaceChannelHelper;
 import es.gob.jmulticard.CryptoHelper.Padding;
 import es.gob.jmulticard.apdu.CommandApdu;

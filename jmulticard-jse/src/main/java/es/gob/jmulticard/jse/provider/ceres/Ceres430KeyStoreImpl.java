@@ -64,7 +64,6 @@ import java.util.logging.Logger;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.PasswordCallback;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.card.CryptoCardException;
 import es.gob.jmulticard.card.PinException;
 import es.gob.jmulticard.card.PrivateKeyReference;
@@ -72,6 +71,7 @@ import es.gob.jmulticard.card.dnie.Dnie;
 import es.gob.jmulticard.card.dnie.DniePrivateKeyReference;
 import es.gob.jmulticard.card.dnie.ceressc.CeresSc;
 import es.gob.jmulticard.connection.ApduConnection;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 import es.gob.jmulticard.jse.provider.BadPasswordProviderException;
 import es.gob.jmulticard.jse.provider.CachePasswordCallback;
 import es.gob.jmulticard.jse.provider.CardPasswordCallback;

@@ -8,10 +8,10 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import es.gob.jmulticard.HexUtils;
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.card.PrivateKeyReference;
 import es.gob.jmulticard.card.dnie.ceressc.CeresSc;
 import es.gob.jmulticard.card.fnmt.ceres.Ceres;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 import es.gob.jmulticard.jse.provider.CachePasswordCallback;
 import es.gob.jmulticard.jse.provider.ProviderUtil;
 

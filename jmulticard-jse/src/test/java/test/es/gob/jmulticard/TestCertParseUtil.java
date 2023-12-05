@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 import org.junit.Test;
 
-import es.gob.jmulticard.BcCryptoHelper;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 
 /** Pruebas de an&aacute;lisis del certificado del DNIe.
  * @author Tom&aacute;s Garc&iacute;a-Mer&aacute;s. */

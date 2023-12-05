@@ -1,4 +1,4 @@
-package es.gob.jmulticard;
+package es.gob.jmulticard.jse;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -76,6 +76,13 @@ import org.spongycastle.operator.bc.BcDigestCalculatorProvider;
 import org.spongycastle.operator.jcajce.JcaContentVerifierProviderBuilder;
 import org.spongycastle.util.Selector;
 import org.spongycastle.util.Store;
+
+import es.gob.jmulticard.CryptoHelper;
+import es.gob.jmulticard.CryptoHelper.BlockMode;
+import es.gob.jmulticard.CryptoHelper.DigestAlgorithm;
+import es.gob.jmulticard.CryptoHelper.EcCurve;
+import es.gob.jmulticard.CryptoHelper.PaceChannelHelper;
+import es.gob.jmulticard.CryptoHelper.Padding;
 
 /** Funcionalidades criptogr&aacute;ficas de utilidad implementadas mediante BouncyCastle.
  * Contiene c&oacute;digo basado en el trabajo del <i>JMRTD team</i>, bajo licencia

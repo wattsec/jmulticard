@@ -52,11 +52,11 @@ import org.spongycastle.jcajce.provider.asymmetric.ec.KeyPairGeneratorSpi;
 import org.spongycastle.jce.provider.BouncyCastleProvider;
 import org.spongycastle.jce.spec.ECNamedCurveGenParameterSpec;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.CryptoHelper;
 import es.gob.jmulticard.CryptoHelper.BlockMode;
 import es.gob.jmulticard.CryptoHelper.EcCurve;
 import es.gob.jmulticard.CryptoHelper.Padding;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 import es.gob.jmulticard.HexUtils;
 
 /** Pruebas de operaciones criptogr&aacute;ficas con BcCryptoHelper.

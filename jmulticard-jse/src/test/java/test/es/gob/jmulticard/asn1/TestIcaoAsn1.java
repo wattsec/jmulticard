@@ -6,8 +6,8 @@ import java.io.InputStream;
 
 import org.junit.Test;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.asn1.icao.Sod;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 
 /** Pruebas de estructuras ICAO.
  * @author Tom&aacute;s Garc&iacute;a-Mer&aacute;s. */

@@ -63,11 +63,11 @@ import java.util.logging.Logger;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.PasswordCallback;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.card.PrivateKeyReference;
 import es.gob.jmulticard.card.gide.smartcafe.SmartCafePkcs15Applet;
 import es.gob.jmulticard.card.gide.smartcafe.SmartCafePrivateKeyReference;
 import es.gob.jmulticard.connection.ApduConnection;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 import es.gob.jmulticard.jse.provider.CachePasswordCallback;
 import es.gob.jmulticard.jse.provider.ProviderUtil;
 

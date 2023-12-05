@@ -12,7 +12,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.spongycastle.jce.provider.BouncyCastleProvider;
 
-import es.gob.jmulticard.BcCryptoHelper;
 import es.gob.jmulticard.CryptoHelper;
 import es.gob.jmulticard.CryptoHelper.BlockMode;
 import es.gob.jmulticard.CryptoHelper.Padding;
@@ -24,6 +23,7 @@ import es.gob.jmulticard.connection.AbstractApduEncrypter;
 import es.gob.jmulticard.connection.ApduEncrypterAes;
 import es.gob.jmulticard.connection.ApduEncrypterDes;
 import es.gob.jmulticard.connection.CipheredApdu;
+import es.gob.jmulticard.jse.BcCryptoHelper;
 
 /** Pruebas del cifrado de APDU seg&uacute;n CWA-14890.
  * @author Tom&aacute;s Garc&iacute;a-Mer&aacute;s. */
